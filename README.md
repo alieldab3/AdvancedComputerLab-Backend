@@ -1,4 +1,7 @@
 # AdvancedComputerLab
+
+Depolyed on : https://acl-backend.herokuapp.com/           //to be on my own github account only
+Which is originally forked from 'mohamedFabdrabo/AdvancedComputerLab' which is deployed on 'https://advancedcomputerlab-backend.herokuapp.com'
  CSEN704 Advanced Computer Lab project
 
 run index.js file
