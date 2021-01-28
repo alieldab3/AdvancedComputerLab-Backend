@@ -12,6 +12,7 @@ var cors = require("cors");
 const corsOptions={
 origin :
 [
+"https://advancedcomputerlab-frontend.herokuapp.com",
 "http://localhost:5000",
 "http://localhost:3000",
 "http://127.0.0.1",
@@ -22,6 +23,7 @@ exposedHeaders:["set-cookie"],
 
 credentials:true
 const app=express();
+
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
@@ -52,15 +54,6 @@ newC.save();
 
 //app.listen(3000);
 
-// Serve static assets if in production
-// if (process.env.NODE_ENV === 'production') {
-//     // Set static folder
-//     app.use(express.static('build'));
-  
-//     app.get('*', (req, res) => {
-//       res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
-//     });
-//   }
 
 module.exports=app;
 
